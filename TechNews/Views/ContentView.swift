@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @ObservedObject var networkManager = NetworkManager()
+    @State private var news = "TechNewsOutlet"
     
     
     var body: some View {
